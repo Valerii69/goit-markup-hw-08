@@ -1,0 +1,48 @@
+.logo {
+    display: flex;
+    text-decoration: none;
+    color: $titleTextColor;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    // margin-right: 93px ;
+    align-items: center;
+    
+    &--accent {
+    color: $accentColor; 
+
+    }
+    &--footer {
+    color: $whiteColor;
+    margin: 0px ;
+    text-align: start;
+}
+
+       @media screen and (min-width: 480px) {
+        // margin-right: 93px ;
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+      @media screen and (min-width: 320px) and (max-width: 1119px) {
+        padding-top: 0px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        
+      }
+
+
+   @media screen and (min-width: 1119px) { 
+     margin-right: 93px;
+     justify-content: center;
+     }
+    
+
+}
+
+
+
+
+ 

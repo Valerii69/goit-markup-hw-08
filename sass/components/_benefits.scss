@@ -1,0 +1,122 @@
+.benefits__container {
+    //   @extend %container;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media screen and  (min-width: 1200px){
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}  
+    // @media screen and  (min-width: 480px){
+    //     width: 480px;
+    //     margin: 0;
+       
+    // }    
+
+}
+
+.benefits__section {
+  @extend %section;
+}
+
+
+.benefits__list {
+    @media screen and  (min-width: 1200px) {
+  display: flex;  
+  align-items: start;
+  margin: 0;
+  padding: 0;
+}
+}
+
+
+.benefits__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $titleTextColor;
+
+    @media screen and  (min-width: 480px) {
+        text-align: center;
+        // align-items: center;
+      
+    
+    }
+}
+.benefits__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $primaryTextColor;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: .03em;
+}
+    
+
+
+
+.benefits__item {
+    display: inline-block;
+    justify-content: center;
+    
+    @media screen and  (min-width: 480px) {
+        width: 100%;
+        margin-bottom: 30px;
+        // проверить маржині
+    }
+    @media screen and  (min-width: 768px) {
+
+    }
+    @media screen and  (min-width: 1200px) {
+ 
+    width: 270px;
+    padding-left: 0;
+    margin-left: 30px;
+
+}
+}
+
+.benefits__item:nth-child(1) {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+
+.benefits__icon {
+    // margin-right: 10px;
+    fill: currentcolor;
+    width: 70px; 
+    height: 70px;
+    
+}
+
+
+.benefits__icons-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $pageBackgroundColor;
+    margin-bottom: 30px;
+    border-radius: 4px;
+
+    @media screen and  (min-width: 480px) {
+
+    }
+
+    @media screen and  (min-width: 768px) {
+
+    }
+
+
+    @media screen and  (min-width: 1200px) {
+    
+    flex-basis: calc((100% - 90px) / 4); 
+    height: 120px;}
+    
+  
+}

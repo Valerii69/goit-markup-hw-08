@@ -1,0 +1,45 @@
+.join .icons {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 60px;
+}
+
+.icons {
+
+    display: flex;
+    justify-content: start;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+
+    // padding-right: 32px;
+    list-style: none;
+    margin: 0;
+}
+
+
+.icons__list {
+    border-radius: 50%;
+    margin-left: 10px;
+&:nth-child(1) {
+    margin-left: 0;
+}}
+
+
+
+.icons__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: $whiteColor;
+    background: rgba(184, 177, 177, 0.1);
+    transition: background-color 250ms $transitionCubic;
+&:hover,
+&:focus {
+    background-color: $accentColor;
+}
+}
+

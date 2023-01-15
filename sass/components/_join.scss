@@ -1,0 +1,36 @@
+
+.join {
+   display: flex;
+    flex-direction: column;
+    padding: 0;
+
+    @media screen and (max-width: 767px) {
+        align-items: center;
+
+    }
+    @media screen and (min-width: 768px) and (max-width: 1119px){
+    margin-right: 74px;}
+
+    @media screen and (max-width: 767px) {
+        align-items: center;
+        margin-bottom: 60px;
+        margin-top: 60px;
+        align-items: center;
+      }
+
+
+}
+
+
+.join__text {
+    text-transform: uppercase;
+    align-items: center;
+    color: $whiteColor;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: .03em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}

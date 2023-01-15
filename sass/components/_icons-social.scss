@@ -1,0 +1,38 @@
+.iconssocial__list {
+    border-radius: 50%;
+    &:nth-child(1) {
+    margin-left: 0;
+}
+}
+
+
+.iconssocial {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    // padding-left: 32px;
+    // padding-right: 32px;
+    list-style: none;
+}
+.iconssocial__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: $colorSocialLink;
+    transition: fill 250ms $transitionCubic, background-color 250ms $transitionCubic;
+    
+    &:hover,
+    &:focus  {
+    background-color: $iconBackgroundColor;
+    fill: $whiteColor;
+}  
+}
+
+
+

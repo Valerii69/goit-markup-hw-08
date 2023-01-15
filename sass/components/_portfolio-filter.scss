@@ -1,0 +1,69 @@
+.visually--hidden {
+    @extend %visually--hidden; 
+}
+
+.filter  {
+    @extend %container;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+        margin-bottom: 50px;
+        margin-top: 0;
+        padding: 0;
+        list-style: none;
+        min-width: 216px; 
+        
+        color: $titleTextColor;
+        cursor: pointer;
+        font-family: inherit;
+        border-radius: 4px;
+        border: 1px solid transparent;
+        // padding: 6px 22px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        transition: background-color 250ms $transitionCubic, box-shadow 250ms $transitionCubic, color 250ms $transitionCubic;
+    } 
+    
+}
+
+
+
+
+.filter__item{
+margin-right: 8px;
+    &:last-child {
+        margin-right: 0;
+    }      
+} 
+
+
+
+.filter__button {
+    padding: 6px 22px;
+    min-width: 73px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: .03em;
+    background-color: $pageBackgroundColor;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color 250ms $transitionCubic, background-color 250ms $transitionCubic, box-shadow 250ms $transitionCubic;
+    
+    &:hover, 
+    &:focus {
+        color: $whiteColor;
+        background-color: $accentColor;
+        box-shadow: $BoxShadow $colorBoxShadow;
+    }
+}
+
