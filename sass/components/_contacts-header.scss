@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @media screen and (min-width:768px) and (max-width:1119px) {
-    max-width: 1119px;
+    @media screen and (min-width:768px) and (max-width:1199px) {
+    max-width: 1199px;
     margin: 0;
     display: flex;
     // justify-content: space-around;
@@ -17,7 +17,7 @@
 
     margin: 0px auto;
 }
-//     @media screen and  (max-width: 1119px)
+//     @media screen and  (max-width: 1199px)
 //      { 
 //     margin: 0px;
 // }  
@@ -46,12 +46,12 @@
     @media screen and (max-width:767px) {
         display: none;
     }
-    @media screen and (min-width:768px) and (max-width:1119px) {
+    @media screen and (min-width:768px) and (max-width:1199px) {
         display: flex;
         flex-wrap: wrap;
         margin-left: auto;
         align-items:center;
-        padding-left: 0;
+        pad1199pxding-left: 0;
         margin-left: 97px;
         }
 
@@ -72,15 +72,20 @@
 .contacts__item {
     display: flex;
     position: relative;
-    @media screen and (min-width:768px) {
-margin: 0;
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        margin: 0;
+        margin-bottom: 10px;
+        &:nth-child(2) {
+        margin-bottom: 0;
+    }
+
     }   
 
  @media screen and (min-width: 1200px) {
-
+    margin-left: 50px;
     &:nth-child(1) {
     margin-left: 0;
-    // margin-left: 50px;
+   
     }  
      
     }
@@ -98,8 +103,8 @@ margin: 0;
     color: $primaryTextColor;
     transition: fill 250ms $transitionCubic, color 250ms $transitionCubic; 
     
-    @media screen and (min-width: 1200px) {  
-    margin-left: 50px;}
+    // @media screen and (min-width: 1200px) {  
+    // margin-left: 50px;}
 
    
 
@@ -122,6 +127,10 @@ margin: 0;
     padding: 0;
     margin-bottom: 0;
     transition: color 250ms $transitionCubic;
+    @media screen and (min-width:320px) and (max-width: 1199px){
+        width:14px; height:14px;
+        margin-right: 8px;
+    }
 
 
     &:hover, 

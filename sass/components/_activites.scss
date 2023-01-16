@@ -1,4 +1,4 @@
-@media screen and (max-width: 1119px)  {
+@media screen and (max-width: 1199px)  {
     .activites__section {
         display: none;
     }   
@@ -14,10 +14,10 @@
 .activites__container {
     @extend %container;
     
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    // justify-content: center;
     max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;

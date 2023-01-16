@@ -2,7 +2,14 @@
     //   @extend %container;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 0 auto;
+    
 
+    @media screen and  (min-width: 768px) {
+        display: flex;
+        width: 768px;
+     
+    }
     @media screen and  (min-width: 1200px){
     display: flex;
     width: 1200px;
@@ -22,11 +29,19 @@
 
 
 .benefits__list {
+    @media screen and (min-width: 320px) and  (max-width: 1199px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;;
+         margin: 0;}
+
     @media screen and  (min-width: 1200px) {
   display: flex;  
   align-items: start;
   margin: 0;
   padding: 0;
+
 }
 }
 
@@ -56,16 +71,12 @@
     letter-spacing: .03em;
 }
     
-
-
-
 .benefits__item {
     display: inline-block;
     justify-content: center;
-    
-    @media screen and  (min-width: 480px) {
-        width: 100%;
-        margin-bottom: 30px;
+    @media screen and  (min-width: 480px) and (max-width: 1199px) {
+        width: 354px;
+      
         // проверить маржині
     }
     @media screen and  (min-width: 768px) {

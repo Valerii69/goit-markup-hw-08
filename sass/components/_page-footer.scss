@@ -30,7 +30,7 @@
     align-items: center;}
        
 
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     
     width: 768px;   
     align-items: center;
@@ -48,22 +48,6 @@
     }
     
 }
-
-
-
-
-
-
-// .footer__container{
-//     // display: flex;
-//     // padding-left: 15px;
-//     // padding-right: 15px;
-   
-// }
-
-
-
-
                            /* КОНТАКТИ */
 
 
@@ -85,7 +69,7 @@
     @media screen and (max-width: 767px) {
         align-items: center;
       }
-      @media screen and (min-width: 768px) and (max-width: 1119px){
+      @media screen and (min-width: 768px) and (max-width: 1199px){
         align-items: center;
         margin-left: 74px;
         // justify-content: center;
@@ -112,7 +96,7 @@
        
    
       
-        @media screen and (max-width: 1119px) {
+        @media screen and (max-width: 1199px) {
             display: flex;
             flex-direction: column;
             align-items: center;}      
@@ -123,11 +107,6 @@
         @media screen and (min-width: 1200px) {
         margin-right: 70px;
         }  
-    
-    
-   
-
-
 
 }
 
@@ -147,7 +126,29 @@
 }
  
                    
- .address__item {
+//  .address__item {
+//     color: rgba(255,255,255,0.6);
+//     text-decoration: none;
+//     transition: color 250ms $transitionCubic;
+
+//     &:hover, 
+//     &:focus {
+//     color: $accentColor;
+//     }
+ 
+// }
+.address__item {
+    @media screen and (max-width: 1199px)  {  
+    margin-top: 9px;
+    &:nth-child(1) {
+        margin-top: 0;
+    }
+}
+
+}
+    
+.address__link {
+    text-decoration: none;
     color: rgba(255,255,255,0.6);
     text-decoration: none;
     transition: color 250ms $transitionCubic;
@@ -156,9 +157,4 @@
     &:focus {
     color: $accentColor;
     }
- 
 }
-.address__item {
-    margin-top: 9px;
-}
-    

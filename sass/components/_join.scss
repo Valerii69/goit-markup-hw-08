@@ -4,11 +4,11 @@
     flex-direction: column;
     padding: 0;
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1199px) {
         align-items: center;
 
     }
-    @media screen and (min-width: 768px) and (max-width: 1119px){
+    @media screen and (min-width: 768px) and (max-width: 1199px){
     margin-right: 74px;}
 
     @media screen and (max-width: 767px) {
