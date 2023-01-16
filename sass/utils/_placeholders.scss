@@ -36,7 +36,7 @@
         // min-width: 1200px;
         // display: flex;
         // display: flex;
-        min-width: 1200px;
+        // min-width: 1200px;
         align-items: center;
         justify-content: center;
     }  
@@ -53,12 +53,12 @@
 
 
 %section {
-    @media screen and  (min-width: 320px) and  (max-width: 1119px){ 
+    @media screen  and (max-width: 1199px){ 
         padding-top: 60px;
         padding-bottom: 60px;
     }
 
-    @media screen and  (min-width: 1200px) { 
+    @media screen and (min-width: 1200px) { 
     // display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
