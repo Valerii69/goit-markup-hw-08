@@ -15,16 +15,10 @@
     color: $accentColor; 
 
     }
-    &--footer {
-    color: $whiteColor;
-    margin: 0px ;
-    text-align: start;
-}
-
-       @media screen and (min-width: 320px)  and (max-width: 1190px) {
+ @media screen and (min-width: 320px)  and (max-width: 1190px) {
         // margin-right: 93px ;
         padding-top: 0px;
-        margin-bottom: 20px;
+      
 
 
       }
@@ -34,6 +28,8 @@
         // padding-top: 16px;
         font-size: 24px;
         line-height: 1.16;
+        // margin-bottom: 20px;
+
         
       }
 
@@ -43,6 +39,15 @@
      justify-content: center;
      }
     
+
+  &--footer {
+    color: $whiteColor;
+    margin: 0px ;
+    text-align: start;  
+    margin-bottom: 20px;
+}
+
+      
 
 }
 
