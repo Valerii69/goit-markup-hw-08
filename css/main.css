@@ -8,7 +8,7 @@
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .projects, .filter, .footer__container, .clients__container, .activites__container, .activites__list,
 .header__container {
-    min-width: 320px;
+    width: 100%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -2228,6 +2228,7 @@ img {
   padding: 0;
   margin-bottom: auto;
   list-style: none;
+  margin-top: 0;
 }
 .mobile-menu__item {
   margin-bottom: 32px;
@@ -2236,6 +2237,9 @@ img {
   .mobile-menu__item {
     margin-bottom: 16px;
   }
+}
+.mobile-menu__item:nth-child(3) {
+  margin-bottom: 0;
 }
 .mobile-menu__link {
   display: block;
@@ -2262,10 +2266,13 @@ img {
 }
 
 .contacts-menu {
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 .contacts-menu__item {
   margin-bottom: 32px;
+}
+.contacts-menu__item:nth-child(2) {
+  margin-bottom: 0;
 }
 .contacts-menu__tel {
   font-weight: 500;
@@ -2306,6 +2313,7 @@ img {
       flex-wrap: wrap;
   list-style: none;
   row-gap: 10px;
+  margin: 0;
 }
 .social-menu__item {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
@@ -2314,6 +2322,7 @@ img {
 }
 .social-menu__item:last-child {
   border: none;
+  margin-right: 0;
 }
 .social-menu__item:first-child {
   padding-left: 0;
