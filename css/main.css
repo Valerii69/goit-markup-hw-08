@@ -32,6 +32,7 @@
 @media screen and (min-width: 1200px) {
   .projects, .filter, .footer__container, .clients__container, .activites__container, .activites__list,
 .header__container {
+    width: 1200px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
