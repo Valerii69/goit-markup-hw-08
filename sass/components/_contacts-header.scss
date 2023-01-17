@@ -114,7 +114,8 @@
     margin-bottom: 0;
     transition: color 250ms $transitionCubic;
     @media screen and (min-width:320px) and (max-width: 1199px){
-        width:14px; height:14px;
+        max-width: 14px;
+        max-height: 14px;
         margin-right: 8px;
     }
 

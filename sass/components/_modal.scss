@@ -49,6 +49,9 @@
 
 .modal {
     position: absolute;
+    @media  screen  and (min-width: 320px)  and  (max-width: 479px) {
+        width: 320px;  
+    }
     @media  screen  and (min-width: 480px)  and  (max-width: 1199px) {
         width: 450px;  
     }
@@ -181,6 +184,11 @@ transition: fill 250ms $transitionCubic, color 250ms $transitionCubic;
 
 .form__box {
     position: relative;
+    @media  screen  and (min-width: 320px)  and  (max-width: 479px) {
+        width: 100%;
+    }
+
+
     @media  screen  and (min-width: 480px)  and  (max-width: 1199px) {
     width: 370px;}
     
@@ -222,19 +230,21 @@ transition: fill 250ms $transitionCubic, color 250ms $transitionCubic;
     position: relative;
     display: flex;
     align-items: center;
-       justify-content: center;
+    //    justify-content: center;
+       justify-content: space-around;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-left: 12px;
     margin-top: 20px;
-    @media screen and (min-width:480px) and (max-width:1199px) {
+    @media screen and (min-width:320px) and (max-width:1199px) {
         font-weight: 400;
         font-size: 12px;
         line-height: 1.16;
         margin-left: 0px;
-         justify-content: space-between; 
+        justify-content: space-between; 
+        margin-left: 0px;
     }
     color: $primaryTextColor;
     // align-items: flex-start;
@@ -257,8 +267,8 @@ transition: fill 250ms $transitionCubic, color 250ms $transitionCubic;
 .checkbox__icon {
     display: inline-block;
     position: absolute;
-    left: 20px;
-    @media screen and (min-width:480px) and (max-width:1199px) {
+    left: 13px;
+    @media screen and (min-width:320px) and (max-width:1199px) {
     left: 8px;
     }
     border-radius: 2px;
@@ -335,6 +345,8 @@ transition: fill 250ms $transitionCubic, color 250ms $transitionCubic;
 
 .form__textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
+    @media  screen  and (min-width: 320px)  and  (max-width: 479px) {
+        width: 100%;}
     @media  screen  and (min-width: 480px)  and  (max-width: 1199px) {
     width: 370px;}
 

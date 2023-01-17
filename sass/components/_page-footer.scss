@@ -18,7 +18,7 @@
 .footer__container {
     @extend %container;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 auto;
      // @extend %section;
     // padding-top: 60px;
@@ -38,7 +38,7 @@
     flex-wrap: wrap;
     // margin-left: 89px;
     // margin-right: 89px;
-    justify-content: space-between;
+    // justify-content: space-between;
 
     }
 @media screen and (min-width: 1200px) {
@@ -55,7 +55,7 @@
 .address {
 	font-style: normal;
     @media screen and (min-width: 1200px) {
-      margin-top: 20px;       
+    //   margin-top: 20px;       
      }    
     
 }
@@ -71,7 +71,7 @@
       }
       @media screen and (min-width: 768px) and (max-width: 1199px){
         align-items: center;
-        margin-left: 89px;
+        // margin-left: 89px;
         // justify-content: center;
       }
 
@@ -138,18 +138,18 @@
  
 // }
 .address__item {
-    @media screen and (max-width: 1199px)  {  
+    
     margin-top: 9px;
-    &:nth-child(1) {
+    &:nth-child(1){
         margin-top: 0;
     }
-}
+
 
 }
     
 .address__link {
     text-decoration: none;
-    color: rgba(255,255,255,0.6);
+    color: $whiteColor;
     text-decoration: none;
     transition: color 250ms $transitionCubic;
 

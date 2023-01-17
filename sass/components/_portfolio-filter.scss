@@ -4,8 +4,17 @@
 
 .filter  {
     @extend %container;
+    @media screen and  (min-width: 1200px){
+        // min-width: 1200px;
+        // display: flex;
+        // display: flex;
+        width: 1200px;
+        align-items: center;
+        justify-content: center;
+    }  
     justify-content: space-around;
     flex-wrap: wrap;
+
 
     &__list {
         display: flex;

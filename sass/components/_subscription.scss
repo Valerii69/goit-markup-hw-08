@@ -1,13 +1,13 @@
 .subscription{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+ 
 
   @media screen and (max-width: 767px) {
     
     margin: 0px auto; 
     align-items: center;
-   
+      justify-content: center;
     }
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {

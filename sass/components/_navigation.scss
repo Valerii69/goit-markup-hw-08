@@ -27,6 +27,7 @@
 
 
 .nav__item {
+    
 @media screen and  (min-width: 768px){
     display: flex;
     position: relative;
@@ -46,6 +47,11 @@
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
+    transition: color 250ms  $transitionCubic;
+    &:hover,
+    &:focus {
+    color: $accentColor;
+    }
 }
 
 .nav__link {
@@ -60,8 +66,10 @@
 }
 
 .nav__link {
+   
     transition: background-color 250ms $transitionCubic;
     cursor: pointer;
+   
 } 
 
 .nav__link--current {
